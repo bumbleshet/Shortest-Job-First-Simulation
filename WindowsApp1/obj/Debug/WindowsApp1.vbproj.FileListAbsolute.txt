@@ -1,0 +1,13 @@
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.Cache
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\bin\Debug\JCS.Components.NeroBar.dll
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\bin\Debug\JCS.Components.NeroBar.pdb
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Shortest Job First.exe
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Shortest Job First.pdb
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Shortest Job First.xml
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\obj\Debug\Shortest Job First.exe
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\obj\Debug\Shortest Job First.xml
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\obj\Debug\Shortest Job First.pdb
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\obj\Debug\ShortestJobFirst.Form1.resources
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\obj\Debug\ShortestJobFirst.Form2.resources
+C:\Users\USer\source\repos\WindowsApp1\WindowsApp1\obj\Debug\ShortestJobFirst.Resources.resources

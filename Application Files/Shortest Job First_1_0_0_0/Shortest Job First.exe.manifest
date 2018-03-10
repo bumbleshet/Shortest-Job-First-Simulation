@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Shortest Job First.exe" version="1.0.0.0" publicKeyToken="aa8e0233f686978b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="operating_system1600.png.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Shortest Job First" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Shortest Job First.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JCS.Components.NeroBar.dll" size="53248">
+      <assemblyIdentity name="JCS.Components.NeroBar" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>YVcPLg4HO2u5Ckg9UEb8L5ZtMks=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Shortest Job First.exe" size="1158616">
+      <assemblyIdentity name="Shortest Job First" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ZhptVfoQ28NwK75BLTMagYLbNxg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="operating_system1600.png.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hAzxUsx9keAEF9MzS4iECchAUqc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="psychLogo.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9wdELxV+ZybDcn7vrfbRO3q2R4M=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-I9N8BP8\bumbleshet" issuerKeyHash="56d8d0c71f15c7048782934b278a6c365674f732" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>SdAOvbVAJUievnzXx08Vp05dqFw=</DigestValue></Reference></SignedInfo><SignatureValue>N08EVLcAmpxDS3/SueDdfFRCIElc/RnLlOYIeJYWadq4H/MXywi3Gy54MTDkJvuBMwxlDH/dhLlIRHzunK/CT2EeWVqieREMjN2VWvb6jHzGq0LIBx5ppcMQz/8lc2QnATV1gnmfYysXmlAVBSRpifGWw+HrRToGbbO7B2vVu6E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xEtS4/Na7HqTn7A0o2TQp06ylus/lzRlf3ao0S4af74VGPKWaIJVGT9v8Bq4nri0JA6Zt1xhLN/abwLo10ufMmOnR/gD00r/yT9lG7414otWNW535HblrgvjRHtjGYd+sZcPUkUwhpZEZM7uTmqLqgf5xGNsB7F7FqNrBlD+RmU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5ca85d4ea7154fc7d77cbe9e482540b5bd0ed049" Description="" Url=""><as:assemblyIdentity name="Shortest Job First.exe" version="1.0.0.0" publicKeyToken="aa8e0233f686978b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-I9N8BP8\bumbleshet</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ogJSwTuLfl1oUn+VkLFM80sGWGQ=</DigestValue></Reference></SignedInfo><SignatureValue>nAGQStTWAZCpoLuz7vH3ooP16s/0NyKCNBa5to/xh9HHxaGzau+h0IHALO3r+2dF4QzTiPImPR/9l+AxPsu4ZamQ/EQHAotRYYyTkdvOYqnZkgJ2XcJF6mAA4Nk7MDckS7BC5o7D4S9lUeAJpBlQmnjVzmD5P+s5djbvee5LvM4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xEtS4/Na7HqTn7A0o2TQp06ylus/lzRlf3ao0S4af74VGPKWaIJVGT9v8Bq4nri0JA6Zt1xhLN/abwLo10ufMmOnR/gD00r/yT9lG7414otWNW535HblrgvjRHtjGYd+sZcPUkUwhpZEZM7uTmqLqgf5xGNsB7F7FqNrBlD+RmU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQQnpdWp58prFG7ZImA+0lnzANBgkqhkiG9w0BAQUFADA/MT0wOwYDVQQDHjQARABFAFMASwBUAE8AUAAtAEkAOQBOADgAQgBQADgAXABiAHUAbQBiAGwAZQBzAGgAZQB0MB4XDTE3MTIwNTE0NDMwNFoXDTE4MTIwNTIwNDMwNFowPzE9MDsGA1UEAx40AEQARQBTAEsAVABPAFAALQBJADkATgA4AEIAUAA4AFwAYgB1AG0AYgBsAGUAcwBoAGUAdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxEtS4/Na7HqTn7A0o2TQp06ylus/lzRlf3ao0S4af74VGPKWaIJVGT9v8Bq4nri0JA6Zt1xhLN/abwLo10ufMmOnR/gD00r/yT9lG7414otWNW535HblrgvjRHtjGYd+sZcPUkUwhpZEZM7uTmqLqgf5xGNsB7F7FqNrBlD+RmUCAwEAATANBgkqhkiG9w0BAQUFAAOBgQCKMlUQJf7mPjjadxKGcMUjb2ZBd/CM7PP7+o2mb3GacCnRtLQeC6LpOzA+n56OMbFVwC1/M/IWRuXLZy4NSzG2Uby5KMPx2F/Iikmjoa6G0yueJcZZjTTl9BhT3Ue/I8iOabk/Z/aIZ6gajrgfSTyHuqH+G5GDCZjfpUP0estJWw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
